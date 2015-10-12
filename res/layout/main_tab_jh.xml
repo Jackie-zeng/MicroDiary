@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/passagelistbg"
+        android:orientation="vertical" >
+           <RelativeLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_vertical"	
+  		  >  
+      		<TextView
+      		    android:id="@+id/title"
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="微日记"
+        		android:layout_centerInParent="true"
+        		android:textSize="20sp"	
+				android:textColor="#ffffff" />       
+		    <ImageButton 
+		        android:id="@+id/right"
+		        android:layout_width="67dp" 
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true" 
+        		android:layout_centerVertical="true"
+        		android:layout_marginRight="5dp"
+        		android:background="#00000000"
+        		android:src="@drawable/right"
+		         />  
+		    <ImageButton 
+		        android:id="@+id/left"
+		        android:layout_width="67dp" 
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentLeft="true" 
+        		android:layout_centerVertical="true"
+        		android:layout_marginLeft="5dp"
+        		android:background="#00000000"
+        		android:src="@drawable/left"
+		         />  
+		</RelativeLayout>
+		  <RelativeLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="30dp"
+  			android:background="@drawable/search_bar_bg"
+  			android:gravity="center_vertical"	
+  		  >  
+  	
+		  <TextView
+      		    android:id="@+id/month"
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:layout_alignParentLeft="true" 
+                android:layout_marginLeft="30dp"
+        		android:textSize="15sp"	
+				android:textColor="#EE00EE" />   
+			  <TextView
+      		    android:id="@+id/date"
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:layout_alignParentLeft="true" 
+                android:layout_marginLeft="60dp"
+                android:text="周"
+        		android:textSize="15sp"	
+				android:textColor="#EE00EE" />  
+				  <TextView
+      		    android:id="@+id/microplan"
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:layout_alignParentLeft="true" 
+                android:layout_marginLeft="80dp"
+                android:text="计划内容"
+        		android:textSize="15sp"	
+				android:textColor="#EE00EE" />   
+				  <TextView
+      		    android:id="@+id/year"
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:layout_alignParentRight="true" 
+                android:layout_marginRight="5dp"
+
+        		android:textSize="15sp"	
+				android:textColor="#EE00EE" />       		
+  		  </RelativeLayout>
+		<ListView
+		        android:id="@+id/myListview"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:cacheColorHint="#00000000"/>
+	
+		
+</LinearLayout>

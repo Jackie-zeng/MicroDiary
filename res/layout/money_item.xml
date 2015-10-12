@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+            android:id="@+id/moneyLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/mm_listitem"
+             >
+            
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dip"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:text="2012-12-12 12:12:12" />
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginBottom="8dip"
+            android:layout_below="@id/date"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="收入：23元" />
+
+        <TextView
+            android:id="@+id/remark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginBottom="8dip"
+            android:layout_below="@id/value"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="备注：靠，就收入这么一点" />
+            
+            
+        </RelativeLayout>
+    
+    
+    
+</LinearLayout>
