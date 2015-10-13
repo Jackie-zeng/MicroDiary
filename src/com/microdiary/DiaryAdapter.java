@@ -21,6 +21,7 @@ public class DiaryAdapter extends BaseAdapter {
 	
 	private Context context;
 	ArrayList<Diary> diaries;
+	ArrayList<Diary> diariess;
 // normally, adapter always have two fields which are context and listdata;
 	
 	public DiaryAdapter(Context context, ArrayList<Diary> diaries) {
