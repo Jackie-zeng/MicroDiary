@@ -50,6 +50,7 @@ public class ClockAdapter extends BaseAdapter {
 	public View getView(int position, View convertView, ViewGroup parent) {
 		// TODO Auto-generated method stub
 		Item item;
+		Item item2;
 		if(convertView == null) {
 			
 			View v = LayoutInflater.from(context).inflate(R.layout.clock_item, null);
