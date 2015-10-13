@@ -20,7 +20,8 @@ import com.microdiary.entity.Money;
 public class ClockAdapter extends BaseAdapter {
 	
 	
-
+	private Context context;
+	ArrayList<Clock> clocks;
 
 	public ClockAdapter(Context context, ArrayList<Clock> clocks){
 		this.context = context;
