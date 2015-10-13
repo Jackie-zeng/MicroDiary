@@ -27,6 +27,7 @@ public class DBadapter extends Activity {
 	private final Context context;
 	public  DatabaseHelper DBHelper;
 	public SQLiteDatabase db;
+	public SQLiteDatabase db1;
 	public DBadapter(Context ctx)
 	{
 		this.context = ctx;  
